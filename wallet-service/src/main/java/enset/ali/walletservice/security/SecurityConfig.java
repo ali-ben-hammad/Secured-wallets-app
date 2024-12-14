@@ -23,8 +23,9 @@ public class SecurityConfig {
                 .cors(Customizer.withDefaults())
                 .csrf(csrf -> csrf.disable())
                 .headers(headers -> headers.frameOptions(frameOptions -> frameOptions.disable()))
-                .authorizeHttpRequests(ar -> ar.requestMatchers("/**","h2-console/**").permitAll())
+                .authorizeHttpRequests(ar -> ar.requestMatchers("h2-console/**").permitAll())
                 .authorizeHttpRequests(ar -> ar.anyRequest().authenticated())
+                .oauth2ResourceServer(oauth2 -> oauth2.jwt(Customizer.withDefaults()))
                 .build();
     }
 
