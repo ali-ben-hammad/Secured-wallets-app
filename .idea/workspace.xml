@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37b20b23-48ed-4c8b-8e57-448eec0d46d3" name="Changes" comment="front commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +155,7 @@
       <workItem from="1734006983704" duration="4067000" />
       <workItem from="1734034307103" duration="4501000" />
       <workItem from="1734077603043" duration="16000" />
-      <workItem from="1734209927639" duration="3503000" />
+      <workItem from="1734209927639" duration="3816000" />
     </task>
     <task id="LOCAL-00001" summary="front commit">
       <option name="closed" value="true" />
@@ -177,6 +170,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="front commit" />
