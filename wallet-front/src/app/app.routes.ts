@@ -5,8 +5,8 @@ import {AuthGuard} from './guards/auth.guard';
 
 export const routes: Routes = [
   { path: 'wallets', component: WalletsComponent, canActivate : [AuthGuard], data: {roles :['USER']} },
-  { path: '', redirectTo: '/wallets', pathMatch: 'full' },
-  { path: '**', redirectTo: '/wallets' }
+  //{ path: '/', redirectTo: '/wallets', pathMatch: 'full' },
+ // { path: '**', redirectTo: '/wallets' }
 ];
 
 @NgModule({
