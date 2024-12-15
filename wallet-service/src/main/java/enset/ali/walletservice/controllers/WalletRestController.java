@@ -7,6 +7,7 @@ import enset.ali.walletservice.services.WalletService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -19,6 +20,7 @@ public class WalletRestController {
     private WalletService walletService;
 
     @GetMapping
+ //   @PreAuthorize("hasAuthority('USER')")
     public List<WalletDTO> getWallets() {
         return walletService.getWallets();
     }

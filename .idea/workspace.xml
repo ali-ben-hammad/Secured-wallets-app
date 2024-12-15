@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b20b23-48ed-4c8b-8e57-448eec0d46d3" name="Changes" comment="front commit">
+    <list default="true" id="37b20b23-48ed-4c8b-8e57-448eec0d46d3" name="Changes" comment="setup authorization check">
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/security/JwtAuthConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/controllers/WalletRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/controllers/WalletRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-service/src/main/java/enset/ali/walletservice/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -67,6 +75,7 @@
     "HTTP Request.rest-api | #2.executor": "Run",
     "HTTP Request.rest-api | #3.executor": "Run",
     "HTTP Request.rest-api | #4.executor": "Run",
+    "HTTP Request.rest-api | #5.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -93,7 +102,7 @@
       <recent name="$PROJECT_DIR$/wallet-service" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.rest-api | #4">
+  <component name="RunManager" selected="HTTP Request.rest-api | #5">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
@@ -114,13 +123,13 @@
     <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest-api | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="rest-api | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="rest-api | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" index="5" requestIdentifier="#5" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="WalletServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -138,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.rest-api | #5" />
+        <item itemvalue="HTTP Request.rest-api | #1" />
         <item itemvalue="HTTP Request.rest-api | #4" />
         <item itemvalue="Spring Boot.WalletServiceApplication" />
-        <item itemvalue="HTTP Request.rest-api | #1" />
         <item itemvalue="HTTP Request.rest-api | #3" />
-        <item itemvalue="HTTP Request.rest-api | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +187,8 @@
       <workItem from="1734034307103" duration="4501000" />
       <workItem from="1734077603043" duration="16000" />
       <workItem from="1734209927639" duration="3816000" />
-      <workItem from="1734216891278" duration="3096000" />
+      <workItem from="1734216891278" duration="3759000" />
+      <workItem from="1734221595320" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="front commit">
       <option name="closed" value="true" />
@@ -188,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734004825027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="get public key from keycloak">
+      <option name="closed" value="true" />
+      <created>1734220637551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734220637551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +225,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="front commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="front commit" />
+    <MESSAGE value="get public key from keycloak" />
+    <MESSAGE value="setup authorization check" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup authorization check" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
