@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b20b23-48ed-4c8b-8e57-448eec0d46d3" name="Changes" comment="setup authorization check">
-      <change afterPath="$PROJECT_DIR$/wallet-front/public/assets/silent-check-sso.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet-front/src/app/utils/keycloak-init.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet-front/src/app/utils/keycloak-interceptor.ts" afterDir="false" />
+    <list default="true" id="37b20b23-48ed-4c8b-8e57-448eec0d46d3" name="Changes" comment="setup keycloak for front end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet-front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet-front/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-front/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +196,7 @@
       <workItem from="1734259230083" duration="1400000" />
       <workItem from="1734260854543" duration="1489000" />
       <workItem from="1734262540100" duration="4421000" />
-      <workItem from="1734267215166" duration="1384000" />
+      <workItem from="1734267215166" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="front commit">
       <option name="closed" value="true" />
@@ -226,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734223475534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setup keycloak for front end">
+      <option name="closed" value="true" />
+      <created>1734272536419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734272536419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +251,8 @@
     <MESSAGE value="front commit" />
     <MESSAGE value="get public key from keycloak" />
     <MESSAGE value="setup authorization check" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup authorization check" />
+    <MESSAGE value="setup keycloak for front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup keycloak for front end" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
